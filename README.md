@@ -1,5 +1,5 @@
 # Proyecto1_Grupo1
-integrantes:
+integrantes Grupo 1:
 Alicia
 Alison
 Daniel
