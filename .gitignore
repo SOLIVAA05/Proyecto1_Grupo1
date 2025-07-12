@@ -1,0 +1,23 @@
+# Directorios de dependencias
+/vendor/            # Ignora la carpeta vendor (común en proyectos PHP/Composer)
+/node_modules/      # Ignora la carpeta node_modules (común en proyectos JavaScript/Node.js)
+/build/             # Ignora carpetas de compilacion
+/dist/              # Ignora carpetas de distribucion
+
+# Archivos de registro (Logs)
+*.log               # Ignora cualquier archivo con extensión .log
+logs/               # Ignora una carpeta específica de logs
+
+# Archivos de entorno y configuración sensible
+.env                # Ignora el archivo .env (variables de entorno locales)
+.env.local          # Ignora el archivo .env.local
+
+# Archivos específicos del sistema operativo
+.DS_Store           # Archivos de macOS
+Thumbs.db           # Archivos de miniaturas de Windows
+
+# Archivos específicos de entornos de desarrollo (IDEs)
+.idea/              # Carpeta de configuración de IntelliJ IDEA
+.vscode/            # Carpeta de configuración de VS Code
+*.sublime-project   # Archivos de proyecto de Sublime Text
+*.sublime-workspace # Archivos de workspace de Sublime Text
